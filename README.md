@@ -1,0 +1,2 @@
+To run this project, in the CLI navigate to the directory where the Vagrantfile is located and run the command "vagrant up".
+When it finishes building the project simply open the link http://192.168.44.3 in your web browser.

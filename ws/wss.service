@@ -1,0 +1,12 @@
+[Unit]
+Description=Start Websockets Server
+After=network.target
+
+[Service]
+User=vagrant
+WorkingDirectory=/vagrant/ws
+ExecStart=/usr/bin/php /vagrant/ws/websockets_server.php
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
